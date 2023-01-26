@@ -1,3 +1,12 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+
+* {
+    Margin: 5;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: "Poppins", Sans-Serif;
+}
+
 .top-right {
     position: absolute;
     top: 8px;
@@ -6,11 +15,6 @@
 
 A {
     Text-Decoration: None;
-    }
-.navigation {
-    Width: 100%;
-    Height: 15vh;
-    
 }
 
 Nav {
@@ -19,7 +23,6 @@ Nav {
     Justify-Content: Space-Between;
     Padding: 30px 100px;
 }
-
 
 Nav Ul Li {
     List-Style: None;
@@ -30,6 +33,7 @@ Nav Ul Li {
     font-size: 20px;
     font-weight: bold;
 }
+
 Nav Ul Li A:hover {
     Color: #Fd4766;
 }
