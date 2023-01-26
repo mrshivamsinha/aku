@@ -1,0 +1,35 @@
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+A {
+    Text-Decoration: None;
+    color:white;
+    
+}
+.navigation {
+    Width: 100%;
+    Height: 15vh;
+    
+}
+
+Nav {
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Space-Between;
+    Padding: 30px 100px;
+}
+
+Nav Ul Li {
+    List-Style: None;
+    Display: Inline-Block;
+    Padding: 10px 20px;
+    Color: white;
+    Position: Relative;
+    Padding: 5px 5px;
+}
+Nav Ul Li A:hover {
+    Color: #Fd4766;
+}
