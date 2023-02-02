@@ -8,9 +8,12 @@
 }
 
 .top-right {
-    position: absolute;
+    position: right;
     top: 8px;
     right: 10px;
+}
+.top-right a{
+    color:white;
 }
 
 A {
@@ -35,5 +38,15 @@ Nav Ul Li {
 }
 
 Nav Ul Li A:hover {
-    Color: #Fd4766;
+    Color: orange;
+}
+
+.subjects li{
+    font-weight: bold;
+}
+
+@media screen and (max-width:768){
+    nav {
+        display: none;
+    }
 }
