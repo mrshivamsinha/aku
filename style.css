@@ -73,3 +73,44 @@ A {
         List-Style: None;
     }
 
+/*---------------------------------------------
+---------------------------------------------*/
+.navigator2 li{
+    display:inline-block;
+}
+.navigator2{
+    background:#dbe1f3;
+    margin:0px 30px;
+}
+.navigator2 nav ul li a {
+    color:#0a4682;
+}
+.navigator2 A:hover {
+    color:#eff2f4;
+}
+.road_role ol{
+    List-Style: None;
+}
+.road_role{
+    background:rgb(204, 204, 82);
+    margin:0px 30px;
+}
+.road_role A:hover {
+    color:#eff2f4;
+}
+.road_role A {
+    color:#303840;
+}
+.skill_based ol{
+    List-Style: None;
+}
+.skill_based{
+    background:rgb(212, 212, 182);
+    margin:0px 30px;
+}
+.skill_based A:hover {
+    color:#eff2f4;
+}
+.skill_based  A {
+    color:#555758;
+}
