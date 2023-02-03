@@ -1,33 +1,30 @@
 @Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
 
 * {
-    Margin: 5;
-    Padding: 0;
+    Margin: 0;
+    Padding: 5px 30px;
     Box-Sizing: Border-Box;
     Font-Family: "Poppins", Sans-Serif;
 }
-
-.top-right {
-    position: right;
-    top: 8px;
-    right: 10px;
+.logo{
+    margin:0;
+    padding:0;
+    border:0;
 }
-.top-right a{
-    color:white;
-}
-
 A {
     Text-Decoration: None;
 }
 
-Nav {
+.navigator Nav {
     Display: Flex;
+    background:lightgoldenrodyellow;
     Align-Items: Center;
     Justify-Content: Space-Between;
-    Padding: 30px 100px;
+    Padding: 20px 100px;
+    margin:0,0;
 }
 
-Nav Ul Li {
+.navigator Nav Ul Li {
     List-Style: None;
     Display: Inline-Block;
     Padding: 10px 15px;
@@ -37,16 +34,42 @@ Nav Ul Li {
     font-weight: bold;
 }
 
-Nav Ul Li A:hover {
+.navigator Nav Ul Li A:hover {
     Color: orange;
 }
 
-.subjects li{
-    font-weight: bold;
-}
 
-@media screen and (max-width:768){
-    nav {
-        display: none;
+/* -------------------------------
+    College.html
+    -----------------------------------*/
+    .engg{
+        background-color: rgb(194, 229, 229);
     }
-}
+    .engg ol{
+        List-Style: None;
+    }
+    .medical_college{
+        background-color: rgb(216, 201, 145) ;
+    }
+    .medical_college ol{
+        List-Style: None;
+    }
+    .pharmacy{
+        background-color: rgb(114, 225, 147) ;
+    }
+    .pharmacy ol{
+        List-Style: None;
+    }
+    .Educational_colleges{
+        background-color: rgb(241, 207, 217) ;
+    }
+    .Educational_colleges ol{
+        List-Style: None;
+    }
+    .Vocational{
+        background-color: rgb(239, 236, 202) ;
+    }
+    .Vocational ol{
+        List-Style: None;
+    }
+
